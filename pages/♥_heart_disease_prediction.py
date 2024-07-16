@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
-model = joblib.load('hmodel.sav')
+model = joblib.load('./hmodel.sav')
 st.title('Heart Disease Prediction')
 st.write("input features")
 
